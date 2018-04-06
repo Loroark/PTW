@@ -1,0 +1,29 @@
+table{
+    margin: auto;
+}td{
+    border: 1px solid black;
+    /*do usunięcia!*/
+    width: 68px;
+    height: 68px;
+    /*dotąd*/
+}
+.circle{
+    width: 68px;
+    height: 68px;
+    background: url(../sprite.png) 0 0;
+}
+.cross{
+    width: 68px;
+    height: 68px;
+    background: url(../sprite.png) -68px 0;
+}
+#p1img{
+    width: 68px;
+    height: 68px;
+    background: url(../sprite.png) 0 0;
+}
+#p2img{
+    width: 68px;
+    height: 68px;
+    background: url(../sprite.png) -68px 0;
+}
